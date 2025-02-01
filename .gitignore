@@ -1,2 +1,4 @@
-/lcAgent
+lcAgent/
 .env
+*.env
+*.env.local
