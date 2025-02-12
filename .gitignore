@@ -2,3 +2,4 @@ lcAgent/
 .env
 *.env
 *.env.local
+__pycache__/
