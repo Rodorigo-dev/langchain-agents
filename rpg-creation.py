@@ -76,7 +76,7 @@ def create_character():
     """
 
     prompt = PromptTemplate(template=history_template, input_variables=["nome", "raca", "classe", "antecedente", "atributos", "alinhamento"])
-    chain = LLMChain(llm=llm, prompt=prompt)
+    chain = llm(llm=llm, prompt=prompt)
 
     historia = chain.invoke({
         "nome": nome,
